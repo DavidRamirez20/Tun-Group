@@ -16,19 +16,18 @@ const Navbaresponsive = () => {
                navegation ? 'times' : 'bars'
             } hover:text-gray-400 cursor-pointer`}
          />
-         <p className='text-center text-xl font-bold italic'>Tun Group</p>
+         <p className='text-center text-xl font-bold italic text-gray-700'>Tun Group</p>
          {navegation && (
             <ul className='mx-10 flex flex-col'>
                <Link href='/'>
                   <a className='text-center'>
-                     <li><i className="fas fa-home"></i></li>
+                     <li><i className="fas fa-home text-gray-600"></i></li>
                   </a>
                </Link>
-               <ResponsiveRoute name='Inicio' route='/home'/>
-               <ResponsiveRoute name='Nosotros' route='/home/us'/>
-               <ResponsiveRoute name='Servicio al Cliente' route='/home/client'/>
-               <ResponsiveRoute name='Proveedores' route='/home/suppliers'/>
-               <ResponsiveRoute name='Contáctenos' route='/home/contact'/>
+               <ResponsiveRoute name='Inicio' route='/'/>
+               <ResponsiveRoute name='Nosotros' route='/us'/>
+               <ResponsiveRoute name='Marcas' route='/trademarks'/>
+               <ResponsiveRoute name='Servicio al Cliente' route='/client'/>
             </ul>
          )}
       </div>
