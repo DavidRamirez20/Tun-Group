@@ -11,7 +11,7 @@ const MainLayout = ({children}: any) => {
          <Navbaresponsive />
          <main>{children}</main>
          <Footer />
-         {/* <Footeresponsive /> */}
+         <Footeresponsive />
       </div>
    )
 };
