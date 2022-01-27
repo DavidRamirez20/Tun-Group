@@ -15,9 +15,13 @@ const Home: NextPage = () => {
                   <li className='font-semibold lg:text-2xl text-lg'>Inventore aut porro aperiam optio ad.</li>
                </ul>
                <div className='flex lg:mt-10 mt-5 place-self-center'>
-                  <button className='flex p-4 rounded-full bg-cyan-700 text-slate-100 text-center shadow-md hover:shadow-lg hover:bg-cyan-600 hover:text-slate-50'>
-                  Delectus dolore ipsam earum quam
-                  </button>
+                  <Link href='/client'>
+                     <a>
+                        <button className='flex p-4 rounded-full bg-cyan-700 text-slate-100 text-center shadow-md hover:shadow-lg hover:bg-cyan-600 hover:text-slate-50'>
+                           Delectus dolore ipsam earum quam
+                        </button>
+                     </a>
+                  </Link>
                </div>
             </div>
             <div className='lg:w-2/3 flex justify-center'>
