@@ -3,10 +3,14 @@ import MainLayout from '../layouts/MainLayout'
 import Image from 'next/image'
 import InfoCards from '../components/InfoCards'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const Home: NextPage = () => {
    return (
       <MainLayout>
+         <Head>
+            <title>Home | Tun Group</title>
+         </Head>
          <div className='flex lg:flex-row flex-col-reverse items-center my-8 mx-10'>
             <div className='lg:w-1/3 flex flex-col mt-5'>
                <ul className='flex flex-col items-end'>

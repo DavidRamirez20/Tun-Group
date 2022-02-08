@@ -1,8 +1,12 @@
 import MainLayout from "../layouts/MainLayout";
+import Head from "next/head";
 
 const client = () => {
    return (
       <MainLayout>
+         <Head>
+            <title>Servicio Cliente | Tun Group</title>
+         </Head>
          <div className='clientBack lg:h-screen static'>
             <div className='bg-white/50 lg:h-3/4 lg:w-2/6 flex flex-col lg:absolute lg:right-32 lg:top-52 lg:rounded-lg drop-shadow-lg shadow-white backdrop-blur-md justify-center'>
                <span className='text-center pt-8 font-bold text-xl text-gray-600'>Líneas Telefónicas</span>

@@ -1,10 +1,14 @@
 import { useState } from "react";
 import Image from "next/image";
 import MainLayout from "../layouts/MainLayout";
+import Head from "next/head";
 
 const InfoTun = () => {
   return (
      <MainLayout>
+         <Head>
+            <title>Nosotros | Tun Group</title>
+         </Head>
          <div className='lg:h-44 h-5'></div>
          <div className='lg:absolute lg:left-0 lg:right-0 lg:top-40 text-center'>
             <Image 

@@ -1,9 +1,13 @@
 import ServiceCardsTun from "../components/ServiceCards";
 import MainLayout from "../layouts/MainLayout";
+import Head from "next/head";
 
 const TrademarksTun = () => {
   return (
     <MainLayout>
+      <Head>
+        <title>Marcas | Tun Group</title>
+      </Head>
       <h1 className='text-center font-semibold text-3xl pt-8 pb-3'>Nuestros Servicios</h1>
       <div className='flex flex-col m-4'>
         <div className='flex lg:flex-row flex-col m-5 bg-gradient-to-br from-teal-300 to-emerald-400 rounded-tl-[4rem] rounded-br-[4rem]'>
